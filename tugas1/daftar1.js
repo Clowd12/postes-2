@@ -24,7 +24,7 @@ form.addEventListener('submit', (event) => {
     const email = form.email.value;
     const jenisKelamin = form.querySelector('input[name="jenis-kelamin"]:checked').value;
     const keluhan = form.keluhan.value;
-    const layanan = Array.from(form.querySelectorAll('input[name="layanan"]:checked')).value;
+    const layanan = Array.from(form.querySelectorAll('input[name="syarat-ketentuan"]:checked')).value;
     const syaratKetentuan = form.syarat_ketentuan;
 
     storeData(nama, email, jenisKelamin, keluhan, layanan, lampiran, syaratKetentuan);
