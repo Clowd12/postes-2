@@ -1,7 +1,7 @@
 # postes-2
 **penjelasan**
 - daftar.js bertujuan untuk menyimpan akun yang telah dibikin ke localstorage 
-- login.js bertujuan untuk mengambil data dari localstorage berbentuk array
+- login.js bertujuan untuk mengambil data dari localstorage 
 - daftar1.js bertujuan untuk menyimpan data formulir yang telah diisi ke dalam session storage
 - input.js bertujuan untuk memanggil data dari session storage
 - input.html bertujuan untuk menampilkan isi dari session storage
