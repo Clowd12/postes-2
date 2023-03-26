@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="mainContainer">
+      <div class="formPage">
+
+        <div class="login formBlock active" id="tab-1">
+          <header></header>
+          <form id="form">
+            <nav class="formCtlBlock">
+              <a href="#" class="loginBtn active" data-tab="tab-1"><span>Login</span></a>
+              <a href="daftar.html" class="registerBtn" data-tab="tab-2"><span>register</span></a>
+            </nav>
+            <p>Login to your account:</p>
+            <div class="form-group">
+              <input type="text" name="username" id="username" placeholder="Username" />
+              <p id="unError" class="error"></p>
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" placeholder="Password" />
+              <p id="pwError" class="error"></p>
+            </div>
+            <div class="form-group alignRight">
+              <button type="submit" , id="login">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- /.formPage -->
+    </div>
+    <!-- /.mainContainer -->
+  </div>
+  <!-- /.container -->
+</body>
+<footer>
+  <p>&copy; 2023 Copyright Rafi</p>
+</footer>
+<script src="login.js"></script>
+
+</html>
