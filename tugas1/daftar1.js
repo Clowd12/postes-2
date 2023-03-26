@@ -27,7 +27,7 @@ form.addEventListener('submit', (event) => {
     const layanan = Array.from(form.querySelectorAll('input[name="syarat-ketentuan"]:checked')).value;
     const syaratKetentuan = form.syarat_ketentuan;
 
-    storeData(nama, email, jenisKelamin, keluhan, layanan, lampiran, syaratKetentuan);
+    storeData(nama, email, jenisKelamin, keluhan, layanan, syaratKetentuan);
 
 
     alert('Data formulir berhasil disimpan!');
