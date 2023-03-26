@@ -1,2 +1,3 @@
 # postes-2
--tes
+~daftar.js bertujuan untuk menyimpan akun yang telah dibikin ke localstorage berbenntuk array
+~
